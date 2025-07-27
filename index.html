@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typewriter Around the Web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #fffcf2;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .link-item {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+
+      .link-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .link-title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #c44d2c;
+      }
+
+      .link-desc {
+        font-size: 14px;
+        color: #666;
+      }
+
+      @media (max-width: 768px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="images/logo.png"
+        alt="Logo"
+        style="display: block; margin: 0 auto 30px; max-height: 80px"
+      />
+
+      <div class="grid">
+        <!-- <a href="https://google.com" class="link-item" target="_blank">
+          <div class="link-title">Google</div>
+          <div class="link-desc">Search engine and web services</div>
+        </a>
+
+        <a href="https://github.com" class="link-item" target="_blank">
+          <div class="link-title">GitHub</div>
+          <div class="link-desc">Code hosting and version control</div>
+        </a>
+
+        <a href="https://stackoverflow.com" class="link-item" target="_blank">
+          <div class="link-title">Stack Overflow</div>
+          <div class="link-desc">Programming Q&A community</div>
+        </a> -->
+
+        <a
+          href="https://www.youtube.com/@typewriterdotsh"
+          class="link-item"
+          target="_blank"
+        >
+          <div class="link-title">YouTube</div>
+          <div class="link-desc">Video sharing platform</div>
+        </a>
+
+        <a
+          href="https://x.com/typewriterdotsh"
+          class="link-item"
+          target="_blank"
+        >
+          <div class="link-title">X</div>
+          <div class="link-desc">Social media platform</div>
+        </a>
+
+        <!-- <a href="https://linkedin.com" class="link-item" target="_blank">
+          <div class="link-title">LinkedIn</div>
+          <div class="link-desc">Professional networking</div>
+        </a>
+
+        <a href="https://reddit.com" class="link-item" target="_blank">
+          <div class="link-title">Reddit</div>
+          <div class="link-desc">Social news aggregation</div>
+        </a> -->
+
+        <a
+          href="https://medium.com/@typewriter.sh"
+          class="link-item"
+          target="_blank"
+        >
+          <div class="link-title">Medium</div>
+          <div class="link-desc">Publishing platform</div>
+        </a>
+
+        <!-- <a href="https://netflix.com" class="link-item" target="_blank">
+          <div class="link-title">Netflix</div>
+          <div class="link-desc">Streaming service</div>
+        </a>
+
+        <a href="https://spotify.com" class="link-item" target="_blank">
+          <div class="link-title">Spotify</div>
+          <div class="link-desc">Music streaming platform</div>
+        </a>
+
+        <a href="https://amazon.com" class="link-item" target="_blank">
+          <div class="link-title">Amazon</div>
+          <div class="link-desc">Online marketplace</div>
+        </a>
+
+        <a href="https://ebay.com" class="link-item" target="_blank">
+          <div class="link-title">eBay</div>
+          <div class="link-desc">Online auction site</div>
+        </a>
+
+        <a href="https://wikipedia.org" class="link-item" target="_blank">
+          <div class="link-title">Wikipedia</div>
+          <div class="link-desc">Free encyclopedia</div>
+        </a>
+
+        <a href="https://gmail.com" class="link-item" target="_blank">
+          <div class="link-title">Gmail</div>
+          <div class="link-desc">Email service</div>
+        </a>
+
+        <a href="https://drive.google.com" class="link-item" target="_blank">
+          <div class="link-title">Google Drive</div>
+          <div class="link-desc">Cloud storage service</div>
+        </a>
+
+        <a href="https://dropbox.com" class="link-item" target="_blank">
+          <div class="link-title">Dropbox</div>
+          <div class="link-desc">File hosting service</div>
+        </a>
+
+        <a href="https://notion.so" class="link-item" target="_blank">
+          <div class="link-title">Notion</div>
+          <div class="link-desc">All-in-one workspace</div>
+        </a>
+
+        <a href="https://trello.com" class="link-item" target="_blank">
+          <div class="link-title">Trello</div>
+          <div class="link-desc">Project management tool</div>
+        </a>
+
+        <a href="https://slack.com" class="link-item" target="_blank">
+          <div class="link-title">Slack</div>
+          <div class="link-desc">Team communication</div>
+        </a>
+
+        <a href="https://zoom.us" class="link-item" target="_blank">
+          <div class="link-title">Zoom</div>
+          <div class="link-desc">Video conferencing</div>
+        </a>
+
+        <a href="https://figma.com" class="link-item" target="_blank">
+          <div class="link-title">Figma</div>
+          <div class="link-desc">Design collaboration tool</div>
+        </a>
+
+        <a href="https://canva.com" class="link-item" target="_blank">
+          <div class="link-title">Canva</div>
+          <div class="link-desc">Graphic design platform</div>
+        </a>
+
+        <a href="https://unsplash.com" class="link-item" target="_blank">
+          <div class="link-title">Unsplash</div>
+          <div class="link-desc">Free stock photos</div>
+        </a>
+
+        <a href="https://codepen.io" class="link-item" target="_blank">
+          <div class="link-title">CodePen</div>
+          <div class="link-desc">Online code editor</div>
+        </a> -->
+      </div>
+    </div>
+  </body>
+</html>
